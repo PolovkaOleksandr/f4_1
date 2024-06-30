@@ -1,5 +1,5 @@
 
-const ul = document.querySelector('.list'); // список, в якому знаходяться елементи
+const ul = document.querySelector('.list'); 
 
 ul.addEventListener('click', (event) => {
   if (event.target.tagName === 'LI') {
